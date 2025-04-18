@@ -116,8 +116,8 @@ For the knapsack problem, the DP matrix is structured as follows:
 | -------------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Item 0 (no items)          | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
 | Item 1 (Weight=3, Value=4) | 0   | 0   | 0   | 4   | 4   | 4   | 4   | 4   |
-| Item 2 (Weight=2, Value=3) | 0   | 0   | 3   | 4   | 4   | 4   | 7   | 7   |
-| Item 3 (Weight=4, Value=5) | 0   | 0   | 3   | 4   | 5   | 5   | 7   | 8   |
+| Item 2 (Weight=2, Value=3) | 0   | 0   | 3   | 4   | 4   | 7   | 7   | 7   |
+| Item 3 (Weight=4, Value=5) | 0   | 0   | 3   | 4   | 5   | 7   | 8   | 9   |
 
 - The rows represent the items, and the columns represent the weight capacity from 0 to the maximum weight.
 
